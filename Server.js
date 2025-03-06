@@ -6,10 +6,10 @@ const bcrypt=require('bcryptjs')
 
 
 const app=express()
-const PORT=3000
+const PORT=2000
 app.use(express.json());
 
-app.use("/recipe",require("./routes/Recipe"))
+app.use("/recipe",require("./routes/recipe"))
 
 //Registration page api
 
